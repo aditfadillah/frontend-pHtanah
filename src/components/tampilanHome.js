@@ -5,7 +5,7 @@ import axios from "axios";
 function TampilanHome() {
   return (
     <Container>
-      <h1 className="judul text-center">DATA PENGUKURAN</h1>
+      <h1 className="judul text-center" style={{ color: 'black' }}>DATA PENGUKURAN</h1>
       <div className="tampilanhome mb-5">
         <DataTabel />
       </div>
@@ -73,7 +73,7 @@ export function DataTabel() {
                           {data.humidity !== null ? data.humidity : "NaN"}
                         </td>
                         <td>
-                          {data.ph_tanah !== null ? data.ph_tanah : "NaN"}
+                          {data.pH_tanah !== null ? data.pH_tanah : "NaN"}
                         </td>
                         <td>
                           {data.createdAt !== null
