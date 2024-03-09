@@ -61,19 +61,19 @@ export function DataTabel() {
                         <td>{index + 1}</td>
                         <td>
                           {data.kelembapan_tanah !== null
-                            ? data.kelembapan_tanah.toFixed(0)
+                            ? data.kelembapan_tanah
                             : "NaN"}
                         </td>
                         <td>
                           {data.temperature !== null
-                            ? data.temperature.toFixed(0) + " C"
+                            ? data.temperature + " C"
                             : "NaN"}
                         </td>
                         <td>
-                          {data.humidity !== null ? data.humidity.toFixed(0) : "NaN"}
+                          {data.humidity !== null ? data.humidity : "NaN"}
                         </td>
                         <td>
-                          {data.ph_tanah !== null ? data.ph_tanah.toFixed(0) : "NaN"}
+                          {data.ph_tanah !== null ? data.ph_tanah : "NaN"}
                         </td>
                         <td>
                           {data.createdAt !== null

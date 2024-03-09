@@ -5,10 +5,8 @@
 import React from "react";
 import "./index.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import TestBrankas, { DataAll, DataEnkripsi, DataTabel, RiwayatPin } from "./components/brankas";
 import NavbarPage from "./components/NavbarPage";
-import TampilanHome from "../../../frontend-brankas/src/components/tampilanHome";
-
+import TampilanHome from "./components/tampilanHome";
 
 
 function App() {
