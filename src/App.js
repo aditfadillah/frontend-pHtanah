@@ -7,7 +7,7 @@ import "./index.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import TestBrankas, { DataAll, DataEnkripsi, DataTabel, RiwayatPin } from "./components/brankas";
 import NavbarPage from "./components/NavbarPage";
-import TampilanHome from "./components/brankas";
+import TampilanHome from "../../../frontend-brankas/src/components/tampilanHome";
 
 
 
@@ -18,9 +18,9 @@ function App() {
         <NavbarPage />
         <Routes>
           <Route path="/" element={<TampilanHome/>} />
-          <Route path="/riwayat-pin" element={<RiwayatPin/>} />
+          {/* <Route path="/riwayat-pin" element={<RiwayatPin/>} />
           <Route path="/riwayat-status-brankas" element={<DataTabel/>} />
-          <Route path="/data-enkripsi" element={<DataEnkripsi/>} />
+          <Route path="/data-enkripsi" element={<DataEnkripsi/>} /> */}
         </Routes>
       </BrowserRouter>
     </div>
