@@ -25,7 +25,8 @@ export function DataThingsTabel() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/things/getThings"
+          // "http://localhost:5000/api/things/getThings"
+          "https://server-phtanah.vercel.app/api/things/getThings"
         );
         setSensorData(response.data);
       } catch (error) {
