@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,500,600,700&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.forcontent {
+  margin: -170px 0px 0px 80px;
+  width: 700px;
+  height: 400px;
+  position: relative;
+}
+
+.SelamatDatang {
+  width: 244px;
+  height: 31px;
+  left: -35px;
+  position: absolute;
+  color: #464646;
+  font-size: 24px;
+  font-weight: 700;
+  word-wrap: break-word;
+  z-index: -100;
+}
+
+.TinjauanTerkiniTanahPengukuranDanAnalisis {
+  width: 348px;
+  height: 14px;
+  left: -25px;
+  top: 31px;
+  position: absolute;
+  color: #464646;
+  font-size: 14px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.Group19 {
+  width: 874px;
+  height: 539px;
+  left: 0px;
+  top: 64px;
+  position: absolute;
+}
+
+.Rectangle3 {
+  width: 874px;
+  height: 539px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: white;
+  border-radius: 15px;
+}
+
+.Group24 {
+  width: 395px;
+  height: 195px;
+  left: 28px;
+  top: 74px;
+  position: absolute;
+}
+
+.Rectangle4 {
+  width: 395px;
+  height: 195px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #8eafd2;
+  border-radius: 11px;
+}
+
+.Group11 {
+  width: 167px;
+  height: 200px;
+  left: 104px;
+  top: -10px;
+  position: absolute;
+}
+
+.icon1 {
+  top: 10px;
+}
+
+
+.KelembapanTanah {
+  width: 167px;
+  height: 14px;
+  left: 0px;
+  top: 90px;
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.value1 {
+  width: 59px;
+  height: 44px;
+  left: 55px;
+  top: 105px;
+  position: absolute;
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.Group23 {
+  width: 397px;
+  height: 195px;
+  left: 449px;
+  top: 74px;
+  position: absolute;
+}
+
+.Rectangle5 {
+  width: 397px;
+  height: 195px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #F43B4C;
+  border-radius: 11px;
+}
+
+.Group16 {
+  width: 143px;
+  height: 150px;
+  left: 133px;
+  top: 30px;
+  position: absolute;
+}
+
+.icon2 {
+  top: 0;
+}
+
+.Temperature {
+  width: 111px;
+  height: 14px;
+  left: 10px;
+  top: 50px;
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.value2 {
+  width: 143px;
+  height: 44px;
+  left: 0px;
+  top: 70px;
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.Group22 {
+  width: 397px;
+  height: 195px;
+  left: 449px;
+  top: 288px;
+  position: absolute;
+}
+
+.Rectangle7 {
+  width: 397px;
+  height: 195px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #FEC045;
+  border-radius: 11px;
+}
+
+.Group17 {
+  width: 111px;
+  height: 200px;
+  left: 153px;
+  top: 25px;
+  position: absolute;
+}
+
+.icon3 {
+  width: 75px;
+}
+
+.PhTanah {
+  width: 82px;
+  height: 14px;
+  left: 15px;
+  top: 60px;
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.value3 {
+  width: 111px;
+  height: 44px;
+  left: 0px;
+  top: 75px;
+  position: absolute;
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.Group21 {
+  width: 395px;
+  height: 195px;
+  left: 28px;
+  top: 288px;
+  position: absolute;
+}
+
+.Rectangle6 {
+  width: 395px;
+  height: 195px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #228A2D;
+  border-radius: 11px;
+}
+
+.Group18 {
+  width: 130px;
+  height: 200px;
+  left: 122px;
+  top: 30px;
+  position: absolute;
+}
+
+.icon4 {
+  top: 10px;
+  width: 70px;
+}
+
+.Humidity {
+  width: 79px;
+  height: 14px;
+  left: 25px;
+  top: 50px;
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.value4 {
+  width: 130px;
+  height: 44px;
+  left: 0px;
+  top: 65px;
+  position: absolute;
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.Ellipse1 {
+  width: 212px;
+  height: 212px;
+  left: 331px;
+  top: 177px;
+  position: absolute;
+  background: #4A55A2;
+  border-radius: 9999px;
+  border: 20px white solid;
+}
+
+.GroupEclipse {
+  width: 75px;
+  height: 200px;
+  left: 400px;
+  top: 225px;
+  position: absolute;
+}
+.icon5 {
+  
+}
+
+.DataMasuk {
+  width: 74px;
+  height: 14px;
+  left: 0px;
+  top: 50px;
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.value5 {
+  width: 75px;
+  height: 44px;
+  left: 0px;
+  top: 60px;
+  position: absolute;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.DataTerbaru {
+  width: 85px;
+  height: 14px;
+  left: 25px;
+  top: 17px;
+  position: absolute;
+  color: #464646;
+  font-size: 12px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.DataIniMerupakanHasilPengukuranPhTanahBerdasarkanInputanTerakhir {
+  width: 600px;
+  height: 14px;
+  left: -9px;
+  top: 35px;
+  position: absolute;
+  color: #464646;
+  font-size: 12px;
+  font-weight: 400;
+}

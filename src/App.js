@@ -1,27 +1,33 @@
-// App.js
-
-/* eslint-disable no-unused-vars */
-
-import React from "react";
-import "./index.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import NavbarPage from "./components/NavbarPage";
-import TampilanHome from "./components/tampilanHome";
-
+import React, { useState } from "react";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Beranda from "./components/BerandaContent";
+import DataPengukuran from "./components/DataPengukuran";
+import DataThings from "./components/DataThings";
+import GrafikPengukuran from "./components/GrafikPengukuran";
+import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
+import "./style.css";
 
 function App() {
+  const [activeItem, setActiveItem] = useState("Beranda");
+
+  const handleItemClick = (itemName) => {
+    setActiveItem(itemName);
+  };
+
   return (
-    <div className="App">
-      <BrowserRouter>
-        <NavbarPage />
+    <Router>
+      <div>
+        <Sidebar activeItem={activeItem} handleItemClick={handleItemClick} />
+        <Navbar />
         <Routes>
-          <Route path="/" element={<TampilanHome/>} />
-          {/* <Route path="/riwayat-pin" element={<RiwayatPin/>} />
-          <Route path="/riwayat-status-brankas" element={<DataTabel/>} />
-          <Route path="/data-enkripsi" element={<DataEnkripsi/>} /> */}
+          <Route path="/beranda" element={<Beranda />} />
+          <Route path="/datapengukuran" element={<DataPengukuran />} />
+          <Route path="/grafikpengukuran" element={<GrafikPengukuran />} />
+          <Route path="/dataThings" element={<DataThings />} />
         </Routes>
-      </BrowserRouter>
-    </div>
+      </div>
+    </Router>
   );
 }
 
